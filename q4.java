@@ -29,7 +29,7 @@ class BinaryLinearSearch
             int rightCount = 0;
             if ((i + 1) < n)
             {
-                for (int j = i + 1; j <= n; j++)
+                for (int j = i + 1; j <= n-1; j++)
                 {
                     if (a[j] == k)
                     {
